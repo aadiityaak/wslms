@@ -2,12 +2,12 @@
 
 namespace Database\Seeders;
 
-use App\Models\Onboarding;
+use App\Models\TalentPool;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class OnboardingSeeder extends Seeder
+class TalentPoolSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,12 +17,11 @@ class OnboardingSeeder extends Seeder
         $users = User::all();
 
         foreach ($users as $user) {
-            Onboarding::create([
+            TalentPool::create([
                 'user_id' => $user->id,
-                'status' => 'pending',
-                'start_date' => now(),
-                'end_date' => now()->addMonths(3),
-                'notes' => 'Initial onboarding for ' . $user->name,
+                'status' => 'Potential',
+                'comments' => 'High potential employee, shows great leadership skills.',
+                'rating' => rand(3, 5),
             ]);
         }
     }
