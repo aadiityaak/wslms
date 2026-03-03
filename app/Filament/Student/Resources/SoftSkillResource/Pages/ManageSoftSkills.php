@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Employee\Resources\SoftSkillResource\Pages;
+namespace App\Filament\Student\Resources\SoftSkillResource\Pages;
 
-use App\Filament\Employee\Resources\SoftSkillResource;
+use App\Filament\Student\Resources\SoftSkillResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ManageRecords;
 

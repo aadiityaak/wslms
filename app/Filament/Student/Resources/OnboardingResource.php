@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Filament\Employee\Resources;
+namespace App\Filament\Student\Resources;
 
-use App\Filament\Employee\Resources\OnboardingResource\Pages;
-use App\Filament\Employee\Resources\OnboardingResource\RelationManagers;
+use App\Filament\Student\Resources\OnboardingResource\Pages;
+use App\Filament\Student\Resources\OnboardingResource\RelationManagers;
 use App\Models\Onboarding;
 use Filament\Forms;
 use Filament\Forms\Form;

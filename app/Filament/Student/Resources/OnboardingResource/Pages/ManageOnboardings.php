@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Employee\Resources\OnboardingResource\Pages;
+namespace App\Filament\Student\Resources\OnboardingResource\Pages;
 
-use App\Filament\Employee\Resources\OnboardingResource;
+use App\Filament\Student\Resources\OnboardingResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ManageRecords;
 

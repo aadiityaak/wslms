@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Filament\Employee\Resources;
+namespace App\Filament\Student\Resources;
 
-use App\Filament\Employee\Resources\LeadershipResource\Pages;
-use App\Filament\Employee\Resources\LeadershipResource\RelationManagers;
+use App\Filament\Student\Resources\LeadershipResource\Pages;
+use App\Filament\Student\Resources\LeadershipResource\RelationManagers;
 use App\Models\Leadership;
 use Filament\Forms;
 use Filament\Forms\Form;

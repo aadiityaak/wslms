@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Employee\Resources\KpiResource\Pages;
+namespace App\Filament\Student\Resources\KpiResource\Pages;
 
-use App\Filament\Employee\Resources\KpiResource;
+use App\Filament\Student\Resources\KpiResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ManageRecords;
 

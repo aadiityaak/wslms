@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Employee\Resources\LeadershipResource\Pages;
+namespace App\Filament\Student\Resources\LeadershipResource\Pages;
 
-use App\Filament\Employee\Resources\LeadershipResource;
+use App\Filament\Student\Resources\LeadershipResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ManageRecords;
 

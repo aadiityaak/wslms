@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Filament\Employee\Resources;
+namespace App\Filament\Student\Resources;
 
-use App\Filament\Employee\Resources\KpiResource\Pages;
-use App\Filament\Employee\Resources\KpiResource\RelationManagers;
+use App\Filament\Student\Resources\KpiResource\Pages;
+use App\Filament\Student\Resources\KpiResource\RelationManagers;
 use App\Models\Kpi;
 use Filament\Forms;
 use Filament\Forms\Form;
